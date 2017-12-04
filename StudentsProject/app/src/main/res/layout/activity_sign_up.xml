@@ -1,9 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.waqas.studentdsapp.SignUpActivity">
+    android:background="@color/c1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="250dp"
+            android:layout_height="360dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@color/c6"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/uname_edit_txt"
+                android:hint="User Name"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Edt5_color"
+                />
+            <EditText
+                android:id="@+id/email_edit_txt"
+                android:hint="Email"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Edt5_color"
+                />
+            <EditText
+                android:id="@+id/password_edit_text"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Edt5_color"
+                />
+            <EditText
+                android:id="@+id/phone_edit_txt"
+                android:hint="Phone"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Edt5_color"
+                />
+
+            <Button
+                android:id="@+id/signup_btn"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@color/Edt5_color"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:text="Signup"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

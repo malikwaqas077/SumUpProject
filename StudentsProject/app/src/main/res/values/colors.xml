@@ -3,4 +3,29 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="actionbar">#2c412f</color>
+
+    <color name="activty1_color">#FF4</color>
+    <color name="activty_color">#000</color>
+    <color name="edit_txt_color">#d5b6b6</color>
+    <color name="red">#FF0000</color>
+    <color name = "Edt1_color">#78909C</color>
+    <color name="Edt2_color">#fd2c8f78</color>
+    <color name="Edt3_color">#C5E1A5</color>
+    <color name = "Edt4_color">#6A1B9A</color>
+    <color name = "Edt5_color">#FFF3EB</color>
+    <color name= "gryblue">#FF7BC3C8</color>
+    <color name = "dark">#FF47686A</color>
+    <color name = "c1">#F0FFFF</color>
+    <color name= "c2">#00FFFF</color>
+    <color name = "c3">#E0FFFF</color>
+    <color name = "c4">#7FFFD4</color>
+    <color name = "c5">#f2ffff</color>
+    <color name = "c6">#e0d4ff</color>
+    <color name = "c7">#660033</color>
+    <color name = "c8">#66CDAA</color>
+    <color name = "c9">#abbcc2</color>
+    <color name = "white">#FFFFFF</color>
+    <color name = "c11">#ccffcc</color>
+    <color name = "green">#FF3FB547</color>
 </resources>

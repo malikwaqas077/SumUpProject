@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.waqas.studentdsapp">
-<uses-permission android:name="android.permission.INTERNET" />
+    package="com.example.pak.studentsprojectdemo">
+<meta-data
+    android:name="com.google.android.geo.API_KEY"
+    android:value="AIzaSyAY3m1dFwGvoSmyFh6qkndXF_IWMuIMtBo"
+    ></meta-data>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,8 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomePageActivity" />
-        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".Maps"></activity>
     </application>
 
 </manifest>
